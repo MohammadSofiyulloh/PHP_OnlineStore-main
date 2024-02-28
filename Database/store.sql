@@ -1,6 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.6.4
--- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
 -- Generation Time: Aug 11, 2017 at 04:06 PM
@@ -32,9 +29,6 @@ CREATE TABLE `items` (
   `price` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `items`
---
 
 INSERT INTO `items` (`id`, `name`, `price`) VALUES
 (1, 'Cannon EOS', 36000),
